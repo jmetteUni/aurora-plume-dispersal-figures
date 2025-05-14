@@ -7,7 +7,7 @@ Created on Mon Nov  4 10:33:00 2024
 """
 
 import os
-working_dir = '/home/jonathan/Dokumente/Masterarbeit/python/thesis/'
+working_dir = '/path/to/working/directory/'
 os.chdir(working_dir)
 
 import xarray as xa
@@ -22,9 +22,9 @@ print_fig = True
 
 #%% plotting ridge crosssection
 
-fig_path = '/home/jonathan/Dokumente/Masterarbeit/Thesis_Latex_Project/figures/2-background/'
+fig_path = '/path/to/output/directory/figures/2-background/'
 
-fp = r'/home/jonathan/Dokumente/SHK Maren/PS137/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
+fp = r'/path/to/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
 dem = xa.open_dataset(fp)
 
 vent_loc = (parse("6° 15.32'W"),parse("82° 53.83'N"))
@@ -48,9 +48,9 @@ plt.show()
 
 #%%plotting ridge crosssection with current meters
 
-fig_path = '/home/jonathan/Dokumente/Masterarbeit/Thesis_Latex_Project/figures/2-background/'
+fig_path = '/path/to/output/directory/figures/2-background/'
 
-fp = r'/home/jonathan/Dokumente/SHK Maren/PS137/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
+fp = r'/path/to/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
 dem = xa.open_dataset(fp)
 
 vent_loc = (parse("6° 15.32'W"),parse("82° 53.83'N"))
@@ -82,12 +82,12 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 if print_fig == True:
-    plt.savefig('/home/jonathan/Dokumente/Masterarbeit/Thesis_Latex_Project/figures/3-methods/'+'mooring_aqua_ridge-crosssection.pdf',dpi=200)
+    plt.savefig('/path/to/output/directory/figures/3-methods/'+'mooring_aqua_ridge-crosssection.pdf',dpi=200)
 
 #%% plot large overview map
 
-fig_path = '/home/jonathan/Dokumente/Masterarbeit/Thesis_Latex_Project/figures/3-methods/'
-fp = r'/home/jonathan/Dokumente/SHK Maren/PS137/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
+fig_path = '/path/to/output/directory/figures/3-methods/'
+fp = r'/path/to/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
 coll_path = '/home/jonathan/Dokumente/Masterarbeit/CTD_data_collection/all_ctd_20240719.csv'
 
 mooring_loc =  (parse("6° 15.043'W"),parse("82° 53.866'N"))
@@ -137,8 +137,8 @@ plt.show()
 
 #%% plot large overview map for model domain
 
-fig_path = '/home/jonathan/Dokumente/Masterarbeit/Thesis_Latex_Project/figures/3-methods/'
-fp = r'/home/jonathan/Dokumente/SHK Maren/PS137/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
+fig_path = '/path/to/output/directory/figures/3-methods/'
+fp = r'/path/to/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
 coll_path = '/home/jonathan/Dokumente/Masterarbeit/CTD_data_collection/all_ctd_20240719.csv'
 
 mooring_loc =  (parse("6° 15.043'W"),parse("82° 53.866'N"))
@@ -184,8 +184,8 @@ plt.show()
 
 #%% plot large overview map for model domain discussion
 
-fig_path = '/home/jonathan/Dokumente/Masterarbeit/Thesis_Latex_Project/figures/3-methods/'
-fp = r'/home/jonathan/Dokumente/SHK Maren/PS137/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
+fig_path = '/path/to/output/directory/figures/3-methods/'
+fp = r'/path/to/Manuscript_Joel/GEBCO_28_Oct_2024_b50a4f017cb4/gebco_2024_n90.0_s70.0_w-30.0_e30.0.tif'
 coll_path = '/home/jonathan/Dokumente/Masterarbeit/CTD_data_collection/all_ctd_20240719.csv'
 
 mooring_loc =  (parse("6° 15.043'W"),parse("82° 53.866'N"))
@@ -231,7 +231,7 @@ plt.show()
 #     plt.savefig(fig_path+'map_model_domain.png', dpi=300)
 #%% plot all Polarstern bathymetry
 
-gebcopath = '/home/jonathan/Dokumente/SHK Maren/PS137/PS137_AuroraVent_25m_bilinear_WGS84.nc'     # path for bathymetry files
+gebcopath = '/path/to/PS137_AuroraVent_25m_bilinear_WGS84.nc'     # path for bathymetry files
 vent_loc = (parse("6° 15.32'W"),parse("82° 53.83'N"))
 mooring_loc =  (parse("6° 15.043'W"),parse("82° 53.866'N"))
 

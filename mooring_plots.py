@@ -7,7 +7,7 @@ Created on Mon Nov  4 17:03:22 2024
 """
 
 import os
-working_dir = '/home/jonathan/Dokumente/Masterarbeit/python/thesis/'
+working_dir = '/path/to/working/directory/'
 os.chdir(working_dir)
 
 import numpy as np
@@ -23,7 +23,7 @@ from datetime import timedelta
 import spectrum
 
 rcm_path = '/home/jonathan/Dokumente/Masterarbeit/MooringData/RCM/'
-fig_path = '/home/jonathan/Dokumente/Masterarbeit/Thesis_Latex_Project/figures/4-results/4-2-time/'
+fig_path = '/path/to/output/directory/figures/4-results/4-2-time/'
 
 
 #%%#################### Print Figures Flag #####################################

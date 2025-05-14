@@ -7,7 +7,7 @@ Created on Sat Jan 18 11:40:23 2025
 """
 
 import os
-working_dir = '/home/jonathan/Dokumente/Masterarbeit/python/thesis'
+working_dir = '/path/to/working/directory'
 os.chdir(working_dir)
 
 from lat_lon_parser import parse
@@ -27,12 +27,12 @@ import matplotlib.dates as mdates
 import numpy as np
 
 #%% set paths
-cnv_path = '/home/jonathan/Dokumente/SHK Maren/PS137/CTD_data_processing/csv_files_noprocessing/'
-btl_path = '/home/jonathan/Dokumente/SHK Maren/PS137/CTD_data_processing/csv_files_noprocessing/'
-mapr_path = '/home/jonathan/Dokumente/SHK Maren/PS137/MAPR/csv_files/'
-gebcopath = '/home/jonathan/Dokumente/SHK Maren/PS137/PS137_AuroraVent_25m_bilinear_WGS84.nc'     # path for bathymetry files
-gebcopath_hillshade = '/home/jonathan/Dokumente/SHK Maren/PS137/PS137_AuroraVent_25m_bilinear_WGS84_hillshade.nc'
-fig_path = '/home/jonathan/Dokumente/Masterarbeit/Thesis_Latex_Project/figures/5-disc/'
+cnv_path = '/path/to/CTD_data_processing/csv_files_noprocessing/'
+btl_path = '/path/to/CTD_data_processing/csv_files_noprocessing/'
+mapr_path = '/path/to/MAPR/csv_files/'
+gebcopath = '/path/to/PS137_AuroraVent_25m_bilinear_WGS84.nc'     # path for bathymetry files
+gebcopath_hillshade = '/path/to/PS137_AuroraVent_25m_bilinear_WGS84_hillshade.nc'
+fig_path = '/path/to/output/directory/figures/5-disc/'
 
 lonW = -6.45
 lonE = -6.175

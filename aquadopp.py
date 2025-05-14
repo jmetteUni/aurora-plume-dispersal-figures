@@ -6,7 +6,7 @@ Created on Thu Oct 24 10:53:26 2024
 @author: jmette@uni-bremen.de
 """
 import os
-working_dir = '/home/jonathan/Dokumente/Masterarbeit/python/thesis/'
+working_dir = '/path/to/working/directory/'
 os.chdir(working_dir)
 
 import pandas as pd
@@ -16,11 +16,11 @@ from hyvent.io import read_from_csv
 from hyvent.misc import keys_to_data, calc_vel_from_posi
 
 #%%
-fig_path = '/home/jonathan/Dokumente/Masterarbeit/Thesis_Latex_Project/figures/4-results/4-2-time/'
+fig_path = '/path/to/output/directory/figures/4-results/4-2-time/'
 
-dat_path = '/home/jonathan/Dokumente/SHK Maren/PS137/Aquadopp/028-0101.dat'
-hdr_path = '/home/jonathan/Dokumente/SHK Maren/PS137/Aquadopp/028-0101.hdr'
-cnv_path = '/home/jonathan/Dokumente/SHK Maren/PS137/CTD_data_processing/csv_files_noprocessing/'
+dat_path = '/path/to/Aquadopp/028-0101.dat'
+hdr_path = '/path/to/Aquadopp/028-0101.hdr'
+cnv_path = '/path/to/CTD_data_processing/csv_files_noprocessing/'
 
 aurora_stations = ['022_01', '026_01', '028_01', '033_01', '036_01', '041_01', '054_01', '055_01']
 
