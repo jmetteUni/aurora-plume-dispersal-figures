@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cell_Thermal_Mass >
+  <Version value="7.26.2.14" />
+  <ServerName value="Cell Thermal Mass" />
+  <InputDir value="C:\users\jonathan\Meine Dokumente\SHK Maren\PS137\CTD_data_processing\cnv_files_noprocessing" />
+  <InputFileArray size="16" GrowBy="-1" >
+    <ArrayItem index="0" value="PS137_018_1.cnv" />
+    <ArrayItem index="1" value="PS137_022_1.cnv" />
+    <ArrayItem index="2" value="PS137_025_1.cnv" />
+    <ArrayItem index="3" value="PS137_026_1.cnv" />
+    <ArrayItem index="4" value="PS137_028_01.cnv" />
+    <ArrayItem index="5" value="PS137_033_01.cnv" />
+    <ArrayItem index="6" value="PS137_036_01.cnv" />
+    <ArrayItem index="7" value="PS137_040_01.cnv" />
+    <ArrayItem index="8" value="PS137_041_01.cnv" />
+    <ArrayItem index="9" value="PS137_049_01.cnv" />
+    <ArrayItem index="10" value="PS137_052_01.cnv" />
+    <ArrayItem index="11" value="PS137_053_01.cnv" />
+    <ArrayItem index="12" value="PS137_054_01.cnv" />
+    <ArrayItem index="13" value="PS137_055_01.cnv" />
+    <ArrayItem index="14" value="PS137_058_01.cnv" />
+    <ArrayItem index="15" value="PS137_061_01.cnv" />
+  </InputFileArray>
+  <OutputDir value="C:\users\jonathan\Meine Dokumente\SHK Maren\PS137\CTD_data_processing\cnv_files_noprocessing" />
+  <NameAppend value="" />
+  <OutputFile value="" />
+  <LastProcessed value="0" />
+  <Primary >
+    <Correct value="1" />
+    <TempSensor value="0" />
+    <TA_Amplitude value="0.030000" />
+    <TA_TimeConstant value="7.000000" />
+  </Primary>
+  <Secondary >
+    <Correct value="1" />
+    <TempSensor value="1" />
+    <TA_Amplitude value="0.030000" />
+    <TA_TimeConstant value="7.000000" />
+  </Secondary>
+</Cell_Thermal_Mass>

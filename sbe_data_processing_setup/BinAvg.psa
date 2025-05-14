@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bin_Average >
+  <Version value="7.26.2.14" />
+  <ServerName value="Bin Average" />
+  <InputDir value="C:\users\jonathan\Meine Dokumente\SHK Maren\PS137\CTD_data_processing\cnv_files_noprocessing" />
+  <InputFileArray size="16" GrowBy="-1" >
+    <ArrayItem index="0" value="PS137_018_1.cnv" />
+    <ArrayItem index="1" value="PS137_022_1.cnv" />
+    <ArrayItem index="2" value="PS137_025_1.cnv" />
+    <ArrayItem index="3" value="PS137_026_1.cnv" />
+    <ArrayItem index="4" value="PS137_028_01.cnv" />
+    <ArrayItem index="5" value="PS137_033_01.cnv" />
+    <ArrayItem index="6" value="PS137_036_01.cnv" />
+    <ArrayItem index="7" value="PS137_040_01.cnv" />
+    <ArrayItem index="8" value="PS137_041_01.cnv" />
+    <ArrayItem index="9" value="PS137_049_01.cnv" />
+    <ArrayItem index="10" value="PS137_052_01.cnv" />
+    <ArrayItem index="11" value="PS137_053_01.cnv" />
+    <ArrayItem index="12" value="PS137_054_01.cnv" />
+    <ArrayItem index="13" value="PS137_055_01.cnv" />
+    <ArrayItem index="14" value="PS137_058_01.cnv" />
+    <ArrayItem index="15" value="PS137_061_01.cnv" />
+  </InputFileArray>
+  <OutputDir value="C:\users\jonathan\Meine Dokumente\SHK Maren\PS137\CTD_data_processing\cnv_files_noprocessing" />
+  <NameAppend value="" />
+  <OutputFile value="" />
+  <LastProcessed value="0" />
+  <BinType value="4" />
+  <BinSize value="1.000000" />
+  <IncludeNumberScans value="0" />
+  <ExcludeMarkedBad value="1" />
+  <ScansToSkip value="0" />
+  <CastToProcess value="0" high="2" low="0" initialValue="0" />
+  <IncludeSurfaceBin value="0" />
+  <SurfaceBinMinVal value="0.000000" />
+  <SurfaceBinMaxVal value="0.000000" />
+  <SurfaceBinVal value="0.000000" />
+</Bin_Average>
